@@ -1,6 +1,6 @@
 # Pygame Platformer
 
-A simple starting point for a 2D platformer game built with Python and Pygame. This project provides a clean structure for a basic game loop, making it easy to build upon and expand.
+A 2D platformer game built with Python and Pygame.
 
 ### Prerequisites
 
