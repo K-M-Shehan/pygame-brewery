@@ -6,17 +6,17 @@ pygame.init()
 screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption('yeah boi')
 clock = pygame.time.Clock()
-test_font = pygame.font.Font('data/font/Pixeltype.ttf', 50)
+test_font = pygame.font.Font('data/sidescroller/font/Pixeltype.ttf', 50)
 game_active = True
 
-sky_surface = pygame.image.load('graphics/Sky.png').convert()
-ground_surface = pygame.image.load('graphics/ground.png').convert()
+sky_surface = pygame.image.load('data/sidescroller/graphics/Sky.png').convert()
+ground_surface = pygame.image.load('data/sidescroller/graphics/ground.png').convert()
 
 
-snail_surface = pygame.image.load('graphics/snail/snail1.png').convert_alpha()
+snail_surface = pygame.image.load('data/sidescroller/graphics/snail/snail1.png').convert_alpha()
 snail_rect = snail_surface.get_rect(midbottom = (600, 300))
 
-player_surface = pygame.image.load(('graphics/Player/player_walk_1.png')).convert_alpha()
+player_surface = pygame.image.load(('data/sidescroller/graphics/Player/player_walk_1.png')).convert_alpha()
 player_rectangle = player_surface.get_rect(midbottom = (80, 300))
 player_gravity = 0
 
