@@ -1,6 +1,11 @@
-# Pygame Platformer
+# pygame brewery 🍺
 
-A 2D platformer game built with Python and Pygame.
+A place to hold all the games I built to learn Python and Pygame.
+
+### List of games
+pong
+basic platformer
+basic side scrolling game (like chrome dino)
 
 ### Prerequisites
 
@@ -12,8 +17,8 @@ A 2D platformer game built with Python and Pygame.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/K-M-Shehan/pygame-platformer.git
-   cd pygame-platformer
+   git clone https://github.com/K-M-Shehan/pygame-brewery.git
+   cd pygame-brewery
    ```
 2. Create a virtual environment and activate it:
 
@@ -26,8 +31,12 @@ A 2D platformer game built with Python and Pygame.
    ```bash
    pip install pygame
    ```
-4. Run the game:
+4. Run the games:
 
    ```bash
-   python game.py
+   python platformer.py
+   # or 
+   python sidescroller.py
+   # or
+   python pong.py
    ```
