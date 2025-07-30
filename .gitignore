@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Pygame specific assets or logs
+*.log
+*.sav
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment metadata
+pip-wheel-metadata/
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+
+# Backup files
+*~
+
+# Environment variables or secrets
+.env
+.env.*
